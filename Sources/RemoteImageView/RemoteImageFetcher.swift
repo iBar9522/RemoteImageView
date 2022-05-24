@@ -33,7 +33,7 @@ public class RemoteImageFetcher: ObservableObject {
     
     let url: URL
     
-    public init(url: URL) {
+    public init(from url: URL) {
         self.url = url
     }
     
